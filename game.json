@@ -1,0 +1,64 @@
+{
+  "$schema": "https://raw.githubusercontent.com/pewplay/pewplay/main/schema/game.schema.json",
+  "title": "FreeCell",
+  "description": "Use four free cells to move all 52 cards to the foundations from Ace to King. Classic FreeCell solitaire, free to play in your browser.",
+  "about": "FreeCell is the solitaire where luck plays almost no part: all 52 cards are dealt face up into eight columns, so every move is a decision you can see coming. Build the four foundations up by suit from Ace to King to win.\n\nIn the columns you stack cards downward in alternating colors, red on black and black on red. The four free cells in the top-left corner each hold one card and are the key to the game: they let you dig out buried Aces and rearrange long sequences. The number of cards you can move at once depends on how many free cells and empty columns you have, and the game shows you the limit.\n\nEach deal has a number, so you can replay the same game later. Safe cards fly to the foundations on their own, and you can undo any move.",
+  "howToPlay": "Move cards between columns by placing a card on one of the opposite color and one rank higher. Any card can go into an empty free cell or an empty column. Build each foundation by suit from Ace to King. You win when all four foundations are complete.",
+  "controls": [
+    {
+      "input": "Drag",
+      "action": "Move a card or a sequence"
+    },
+    {
+      "input": "Tap / Click",
+      "action": "Send a card to the best place"
+    },
+    {
+      "input": "Z / Undo",
+      "action": "Take back a move"
+    },
+    {
+      "input": "Esc / P",
+      "action": "Pause"
+    }
+  ],
+  "tips": [
+    "Free the Aces and Twos early: they are often buried deep in the columns.",
+    "Try not to fill all four free cells, or you will run out of moves.",
+    "An empty column doubles the number of cards you can move at once.",
+    "Plan a few moves ahead before committing a card to a free cell."
+  ],
+  "faq": [
+    {
+      "question": "Is FreeCell free to play?",
+      "answer": "Yes. FreeCell is free and runs in your browser, with no download or account."
+    },
+    {
+      "question": "Can I play FreeCell on a phone or tablet?",
+      "answer": "Yes. Tap a card to move it automatically or drag it. On phones landscape gives bigger cards, and tablets work in both orientations."
+    },
+    {
+      "question": "Can every FreeCell game be won?",
+      "answer": "Almost all of them. Very rare deals have no solution; if you get stuck, undo a few moves and try another path."
+    }
+  ],
+  "category": "Card",
+  "tags": [
+    "freecell",
+    "solitaire",
+    "cards",
+    "patience",
+    "logic"
+  ],
+  "author": "PewPlay",
+  "playMode": "SinglePlayer",
+  "orientation": "any",
+  "cover": "cover.png",
+  "screenshots": [
+    "screenshots/1.png",
+    "screenshots/2.png",
+    "screenshots/3.png"
+  ],
+  "added": "2026-11-26",
+  "draft": false
+}
